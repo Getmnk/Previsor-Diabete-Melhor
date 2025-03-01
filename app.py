@@ -1,7 +1,7 @@
 import pickle
 import pandas as pd
 import streamlit as st
-import numpy as py
+import numpy as np
 
 pickle_in = open("diabete.pkl", "rb")
 classifier = pickle.load(pickle_in)
